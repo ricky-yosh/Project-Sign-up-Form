@@ -20,7 +20,31 @@ body
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.medium-text
+#right-side-container
 {
+    padding: 20px;
+}
 
+#form-header
+{
+    font-size: 25px;
+}
+
+#enrollment-form
+{
+    background-color: rgb(116, 116, 116);
+    padding: 10px 0px 30px 30px;
+    margin-left: -20px;
+    margin-right: -20px;
+    box-shadow: 3px 10px 10px rgb(184, 184, 184);
+}
+.input-section
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#create-account-button
+{
+    margin-top: 30px;
 }
