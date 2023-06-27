@@ -38,13 +38,22 @@ body
     margin-right: -20px;
     box-shadow: 3px 10px 10px rgb(184, 184, 184);
 }
+
+#all-input-sections
+{
+    display: flex;
+}
+
 .input-section
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #create-account-button
 {
     margin-top: 30px;
+    border-radius: 10px;
+    width: 240px;
+    height: 50px;
 }
