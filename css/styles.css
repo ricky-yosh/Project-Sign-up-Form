@@ -42,6 +42,10 @@ body
 #all-input-sections
 {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 400px;
+    width: 100px;
 }
 
 .input-section
