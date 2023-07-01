@@ -46,6 +46,7 @@ body
     flex-direction: row;
     height: 400px;
     width: 100px;
+    border-radius: 5px;
 }
 
 .input-section
