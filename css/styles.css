@@ -34,7 +34,7 @@ body
 #enrollment-form
 {
     background-color: rgb(116, 116, 116);
-    padding: 10px 0px 30px 30px;
+    padding: 10px 50px 0px 50px;
     margin-left: -20px;
     margin-right: -20px;
     box-shadow: 3px 10px 10px rgb(184, 184, 184);
@@ -46,8 +46,9 @@ body
     flex-wrap: wrap;
     flex-direction: row;
     height: 400px;
-    max-width: 1000px;
+    max-width: 500px;
     border-radius: 5px;
+    justify-content: space-between;
 }
 
 input
@@ -58,7 +59,9 @@ input
 .input-section
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 10px;
 }
 
 #create-account-button
